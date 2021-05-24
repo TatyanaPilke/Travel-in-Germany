@@ -35,6 +35,10 @@
 	.newsletter__form {
 		bottom: -31px;
 	}
+
+  .main-slider__text {
+    display: none;
+  }
 }
 
 @media (max-width: 992px) {
@@ -87,6 +91,10 @@
   .main-slider__media {
     height: 270px;
     min-width: 100%;
+  }
+
+  .main-slider__text {
+    display: flex;
   }
 
   .main-slider__img {
